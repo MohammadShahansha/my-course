@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--main css start--*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.top-player {
+    background-color: #FFFFFF;
+    width: 870px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    
+
+}
+
+.top-player h2 {
+    color: #562EFF;
+    margin: 30px 0 40px 30px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+    margin-left: 30px;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player-name p {
+    margin-left: 16px;
+    font-size: 18px;
+    color: #000;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 30px;
+}
+
+/*---------------
+           bloger css start
+           ---------------------------*/
+.top-bloger {
+    margin-left: 30px;
+}
+.blogers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 35px;
+    margin-bottom: 30px;
+}
+
+.top-bloger h3 {
+    color: #562EFF;
+    font-size: 24px;
+    margin: 0px 0px 30px 0px;
+}
+
+.bloger-image img {
+    width: 177px;
+    height: 117px;
+}
+
+.bloger {
+    display: flex;
+    align-items: center;
+    
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-info h4 {
+    color: #000;
+    font-size: 20px;
+}
+
+.blog-info p span {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-info p {
+    color: #562EFF;
+    font-size: 16px;
+}
+
+/*courses css start*/
+
+.my-skill{
+    margin: 0 0 19px 30px;
+    display: flex;
+
+}
+
+.skill img{
+    width: 224px;
+height: 104px;
+}
+.cours h4{
+    font-size: 20.0336px;
+}
+.cours p{
+    margin-top: -15px;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+}
